@@ -1,0 +1,94 @@
+body{
+    background-color: white;
+    font-family: "Roboto", Arial, sans-serif;
+    
+
+}
+nav {
+    scale:0.95;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 10px;
+    padding-top: 14px;
+    padding-right: 25px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    
+  }
+  nav a:hover{
+    text-decoration: underline;
+  }
+  back-ground {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+.googlelogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position:relative;
+    top: 230px;
+  }
+  .googlelogo img {
+    scale: 1;
+    max-width: 22%;
+    max-height: 22%;
+  }
+ 
+ .searchbox{
+  scale:0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    top: 230px; 
+ }
+ .textbox{
+    width: 800px;
+    height: 50px;
+    border-radius: 50px;
+    padding-inline: 10px;
+    padding-inline-start: 20px;
+    font-size: larger;
+    
+    
+ }
+.submit-button{
+ scale: 1.3;
+ padding: 10px;
+ position: relative;
+ top: 15px;
+ right:-265px;
+ border-radius: 10px;
+ border-color: gray;
+}
+ .imfeelinglucky{
+    scale: 1.3;
+    padding: 10px;
+    position: relative;
+    top: 15px;
+    right:-320px;
+    border-radius: 10px;
+ }
